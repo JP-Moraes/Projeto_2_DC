@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+int escolha1; 
+int escolha;
+
+//# define Comprimento 10 
+//# define Largura 10 - definindo o tamanho do grid
+
+ 
+//int x, y, i, j; - variaveis para o grid e a posição do jogador
+// x = Comprimento / 2; - posiçao inicial
+// y = Largura / 2; - posiçao inicial 
+
+//void grid () {
+// system ("cls");
+//    for (i = 0; i < Comprimento; i++) {
+// }       for (j = 0; j < Largura; j++) {
+// }          if (x == i && y == j) {
+// }              printf ("P "); - marcando a posicao do jogador
+// }          else {
+// }              printf (". "); - marcando o grid
+// }          }
+// }      printf ("\n"); 
+
+
+
+void Creditos() {
+
+    do
+    {
+        printf ("Desenvolvedores:\n");
+        printf ("Joao Pedro Moraes\n");
+        printf ("Pressione 0 para voltar\n");
+        scanf ("%d", &escolha1);
+        system ("cls");
+       
+    } while (escolha1 != 0);
+    
+	
+}
+
+int main() {
+
+    
+    while (escolha != 3) {
+
+
+		printf ("1. Jogar\n");
+        printf ("2. Creditos\n");
+        printf ("3. Sair\n");
+        scanf ("%d", &escolha); 
+			
+	    system ("cls"); 
+		
+        switch (escolha) {
+            case 2:
+                Creditos();
+                break;
+
+
+	   }  
+
+    printf ("jogo desligado. . . \n"); 
+
+    
+    
+    
+       }
+
+
+       return 0;
+   }
+
+;
+
+
+
+
+
+
