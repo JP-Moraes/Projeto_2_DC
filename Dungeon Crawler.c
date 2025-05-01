@@ -11,16 +11,23 @@ int escolha;
 
 // void jogar() {
 
+//int jogoRodando = 1
+
 // do {
 
 //  int matriz ();
 //  int controle ();
 //  int vida (); 
+//  if (vida == 0) { 
+//. jogoRodando = 0 
+//}
 
-// while (vida == 0) { 
+
+// while (jogoRodando) { 
 
 
 }
+
 
 // --------- Matriz do Jogo ------------------------------
 
