@@ -2,10 +2,25 @@
 #include <stdlib.h>
 #include <conio.h> 
 
-//A biblioteca conio.he esta aqui para auxiliar na movimentçãoem a necessidade do enter - Funções: _kbhit() e _getch()
+//A biblioteca conio.he esta aqui para auxiliar na movimentçãoem a necessidade do enter - Funções: _kbhit() e _getch() 
 
 int escolha1; 
 int escolha;
+
+// --------- Função que joga o jogo -------
+
+void jogar() {
+
+do {
+
+int matriz ();
+int controle ();
+int vida (); 
+
+while (vida == 0) { 
+
+
+}
 
 // --------- Matriz do Jogo ------------------------------
 
@@ -16,7 +31,6 @@ int escolha;
 //int x, y; - posição do jogador
 // x = Comprimento / 2; - posiçao inicial
 // y = Largura / 2; - posiçao inicial 
-
 
 
 //void grid () { 
