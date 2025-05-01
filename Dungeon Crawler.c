@@ -9,7 +9,9 @@ int escolha1;
 int escolha;
 
 //int x, u - posição do jogador 
-//int Altura, Comprimento - coordenadas na matriz 
+//int Altura, Comprimento - coordenadas na matriz
+
+// os dados acima serão utilizados no case 1 jogar para gerar a matriz ao selecionar 
 
 
 // ------ Matriz do Jogo ---------------------
