@@ -35,21 +35,25 @@ int escolha;
 //# define Comprimento 10 - Tamanho da matriz
 //# define Altura 10 - Tamanho da matriz
 
-// char matriz[comprimento][altura] 
+// char matriz[Comprimento][Altura] 
 
 //int linha (i), coluna (y); - variaveis para a matriz
 //int x, y; - posição do jogador
 // x = Comprimento / 2; - posiçao inicial
-// y = Largura / 2; - posiçao inicial 
+// y = Largura / 2; - posiçao inicial
+
+// void exibirMatriz() {
+// for (linha = 0; linha < Comprimento; linha++)   for (coluna = 0; coluna < Altura; coluna++)      printf ("%c"
+//
+//}
 
 
 //void grid () { 
-
 // system ("cls");
 //      for (linha = 0; linha < Altura; linha++) {
 // }       for (Coluna = 0; Coluna < Comprimento; j++) {
 // }          if (x == i && y == j) {
-// }              printf ("P "); - marcando a posicao do jogador
+// }              printf ("P "); - marcando posicao do jogador
 // }          else {
 // }              printf (". "); - marcando o grid
 // }          }
