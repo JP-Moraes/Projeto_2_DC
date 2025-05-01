@@ -7,17 +7,15 @@
 int escolha1; 
 int escolha;
 
-// ---------------------------- Matriz do Jogo -------------------------------
+// ---------------------------- Matriz do Jogo ------------------------------
 
 //# define Comprimento 10 - Tamanho da matriz
 //# define Altura 10 - Tamanho da matriz
 
-//int Matrix[Comprimento][Largura] 
 //int linha (i), coluna (y); - variaveis para a matriz
 //int x, y; - posição do jogador
 // x = Comprimento / 2; - posiçao inicial
 // y = Largura / 2; - posiçao inicial 
-// grid [Comprimento][Largura] = 0 - outra forma de posição inicial 
 
 
 
@@ -31,6 +29,11 @@ int escolha;
 // }              printf (". "); - marcando o grid
 // }          }
 // }      printf ("\n"); 
+
+
+// -------- Função Vida ---------
+
+// int vida = 5 
 
 
 
