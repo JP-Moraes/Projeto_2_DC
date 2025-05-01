@@ -34,7 +34,11 @@ int escolha;
 // -------- Função Vida ---------
 
 // #define Vida_Maxima 5
-// int vida = Vida_Maxima 
+// int vida = Vida_Maxima - Vida inicial do personagem 
+
+// void vida() {
+//  estado == 1 
+//} 
 
 
 
