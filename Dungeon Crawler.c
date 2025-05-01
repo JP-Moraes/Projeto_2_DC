@@ -7,7 +7,7 @@
 int escolha1; 
 int escolha;
 
-// ---------------------------- Matriz do Jogo ------------------------------
+// --------- Matriz do Jogo ------------------------------
 
 //# define Comprimento 10 - Tamanho da matriz
 //# define Altura 10 - Tamanho da matriz
@@ -37,7 +37,8 @@ int escolha;
 // int vida = Vida_Maxima - Vida inicial do personagem 
 
 // void vida() {
-//  estado == 1 
+//  estado == 0 -- Vida permanece 
+//  estado == 1 -- Vida decai 
 //} 
 
 
