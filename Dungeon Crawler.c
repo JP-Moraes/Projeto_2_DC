@@ -38,6 +38,8 @@ int escolha;
 
 //int linha (i), coluna (y); - variaveis para a matriz
 //int x, y; - posição do jogador
+//x = Comprimento / 2;
+//y = Largura / 2; 
 
 
 //void grid () { 
@@ -62,8 +64,14 @@ int escolha;
 //if (_kbhit()) {
 //comando = _getch(); - Lê a tecla pressionad
 
-//if (comando == W || comando = w)
-//   novoX++ 
+//if (comando == W || comando == w)
+//   novoX++;
+// else if (comando == A || comando == a)
+//   novoY++; 
+// else if (comando == S || comando == s)
+//  novoX--
+// else if (comando == D || comando == d) 
+//  novoy-- 
 
 
 }
@@ -77,7 +85,6 @@ int escolha;
 // printf ("HP: %d", d) - Hub da vida 
 // printf ("==============") 
 //}
-
 
 
 void Creditos() {
