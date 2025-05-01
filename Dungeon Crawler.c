@@ -9,15 +9,15 @@ int escolha;
 
 // --------- Função que joga o jogo -------
 
-void jogar() {
+// void jogar() {
 
-do {
+// do {
 
-int matriz ();
-int controle ();
-int vida (); 
+//  int matriz ();
+//  int controle ();
+//  int vida (); 
 
-while (vida == 0) { 
+// while (vida == 0) { 
 
 
 }
