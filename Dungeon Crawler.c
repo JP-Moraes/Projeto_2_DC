@@ -40,8 +40,7 @@ int escolha;
 //char comando; uso do teclado para 
 
 //if (_kbhit()) {
-//comando = _getch(); - Lê a tecla pressionad
-
+//comando = _getch(); - Lê a tecla pressionada
 //if (comando == W || comando == w)
 //   novoX++;
 // else if (comando == A || comando == a)
