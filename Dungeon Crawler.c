@@ -51,7 +51,9 @@ int escolha;
 -- Limitação da movimentação e colisão -- 
 // if (novoX >= 0 && novoX < Altura && novoY >= 0 && novoY < Comprimento)
 // x = novoX; 
-// y = novoY; - Atualiza para a nova posição 
+// y = novoY; - Atualiza para a nova posição
+
+//Sleep (1000) 
 
 
 
