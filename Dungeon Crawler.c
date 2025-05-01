@@ -7,11 +7,11 @@
 int escolha1; 
 int escolha;
 
-// --------- Função que joga o jogo -------
+// --------- Função que mantém o jogo rodando -------
 
 // void jogar() {
-
-//int jogoRodando = 1
+//int jogoRodando = 1 - mantém o jogo ativo 
+//int HP = HP_Maximo
 
 // do {
 
@@ -19,7 +19,8 @@ int escolha;
 //  int controle ();
 //  int vida (); 
 //  if (vida == 0) { 
-//. jogoRodando = 0 
+//  jogoRodando = 0 - O jogo para de jogar 
+
 //}
 
 
@@ -62,10 +63,9 @@ int novoY = y; - Atualização das coordenadas na matriz
 
 // -------- Função Vida ---------
 
-// #define Vida_Maxima 5
-// int vida = Vida_Maxima - Vida inicial do personagem 
+// #define HP_Maximo 5
 
-// void vida {
+// void vidahub (){
 // printf ("==============")
 // printf ("HP: %d", d) - Hub da vida 
 // printf ("==============") 
