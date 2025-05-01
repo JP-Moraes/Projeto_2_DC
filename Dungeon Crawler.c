@@ -39,13 +39,6 @@ int escolha;
 
 //int linha (i), coluna (y); - variaveis para a matriz
 //int x, y; - posição do jogador
-// x = 0; - posiçao inicial
-// y = 0; - posiçao inicial
-
-// void exibirMatriz() {
-// for (linha = 0; linha < Comprimento; linha++)   // for (coluna = 0; coluna < Altura; coluna++) 
-// matriz[Comprimento][Altura] = ". "; 
-//}
 
 
 //void grid () { 
@@ -58,6 +51,9 @@ int escolha;
 // }              printf (". "); - marcando o grid
 // }          }
 // }      printf ("\n"); 
+
+// matriz[5][3] = C - item de cura (Posição definida para outros elementos) 
+// matriz[4][7] = T - Armadilha
 
 // ------- Função Controle e Colisão -------
 
