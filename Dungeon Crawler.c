@@ -20,6 +20,10 @@ int escolha;
 
 
 //void grid () {
+// printf ("==============")
+// printf ("HP: %d", d)
+// printf ("==============") 
+
 // system ("cls");
 //      for (linha = 0; linha < Altura; linha++) {
 // }       for (Coluna = 0; Coluna < Comprimento; j++) {
