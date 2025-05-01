@@ -19,10 +19,7 @@ int escolha;
 
 
 
-//void grid () {
-// printf ("==============")
-// printf ("HP: %d", d)
-// printf ("==============") 
+//void grid () { 
 
 // system ("cls");
 //      for (linha = 0; linha < Altura; linha++) {
@@ -41,6 +38,10 @@ int escolha;
 // int vida = Vida_Maxima - Vida inicial do personagem 
 
 // void vida() {
+// printf ("==============")
+// printf ("HP: %d", d) - Hub da vida 
+// printf ("==============") 
+
 //  estado == 0 -- Vida permanece 
 //  estado == 1 -- Vida decai 
 //} 
