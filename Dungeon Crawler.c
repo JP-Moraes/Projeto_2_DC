@@ -47,9 +47,9 @@ int escolha;
 // else if (comando == A || comando == a)
 //   novoY++; 
 // else if (comando == S || comando == s)
-//  novoX--
+//  novoX--;
 // else if (comando == D || comando == d) 
-//  novoy-- 
+//  novoy--;
 
 }
 
