@@ -34,8 +34,6 @@ int escolha;
 //# define Comprimento 10 - Tamanho da matriz
 //# define Altura 10 - Tamanho da matriz
 
-// char matriz[Comprimento][Altura] 
-
 //int linha (i), coluna (y); - variaveis para a matriz
 //int x, y; - posição do jogador
 //x = Comprimento / 2;
