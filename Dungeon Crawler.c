@@ -7,26 +7,6 @@
 int escolha1; 
 int escolha;
 
-// --------- Função que mantém o jogo rodando -------
-
-// void jogar() {
-//int jogoRodando = 1 - mantém o jogo ativo 
-//int HP = HP_Maximo
-
-// do {
-
-//  int matriz ();
-//  int controle ();
-//  int vida (); 
-//  if (vida == 0) { 
-//  jogoRodando = 0 - O jogo para de jogar 
-
-//}
-
-
-// while (jogoRodando) { 
-
-
 
 
 // ------ Matriz do Jogo ---------------------
@@ -40,7 +20,7 @@ int escolha;
 //y = Largura / 2; 
 
 
-//void grid () { 
+//void matriz() { 
 // system ("cls");
 //      for (linha = 0; linha < Altura; linha++) {
 // }       for (Coluna = 0; Coluna < Comprimento; j++) {
@@ -71,18 +51,7 @@ int escolha;
 // else if (comando == D || comando == d) 
 //  novoy-- 
 
-
 }
-
-// -------- Função Vida ---------
-
-// #define HP_Maximo 5
-
-// void vidahub (){
-// printf ("==============")
-// printf ("HP: %d", d) - Hub da vida 
-// printf ("==============") 
-//}
 
 
 void Creditos() {
