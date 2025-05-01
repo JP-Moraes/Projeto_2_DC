@@ -10,16 +10,16 @@ int escolha;
 // ---------------------------- Matriz do Jogo -------------------------------
 
 //# define Comprimento 10 - Tamanho da matriz
-//# define Largura 10 - Tamanho da matriz
-//int i, j; - variaveis para a matriz
+//# define Altura 10 - Tamanho da matriz
+//int linha, coluna; - variaveis para a matriz
 //int x, y; - posição do jogador
 // x = Comprimento / 2; - posiçao inicial
 // y = Largura / 2; - posiçao inicial 
 
 //void grid () {
 // system ("cls");
-//      for (i = 0; i < Comprimento; i++) {
-// }       for (j = 0; j < Largura; j++) {
+//      for (linha = 0; linha < Altura; linha++) {
+// }       for (Coluna = 0; Coluna < Comprimento; j++) {
 // }          if (x == i && y == j) {
 // }              printf ("P "); - marcando a posicao do jogador
 // }          else {
