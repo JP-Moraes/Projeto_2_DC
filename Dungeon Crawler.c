@@ -31,20 +31,24 @@ int escolha;
 // }          }
 // }      printf ("\n"); 
 
+// ------- Função Controle e Colisão -------
+
+void controle () {
+int novoX = x;
+int novoY = y; - Atualização das coordenadas na matriz
+
+}
 
 // -------- Função Vida ---------
 
 // #define Vida_Maxima 5
 // int vida = Vida_Maxima - Vida inicial do personagem 
 
-// void vida() {
+// void vida {
 // printf ("==============")
 // printf ("HP: %d", d) - Hub da vida 
 // printf ("==============") 
-
-//  estado == 0 -- Vida permanece 
-//  estado == 1 -- Vida decai 
-//} 
+//}
 
 
 
