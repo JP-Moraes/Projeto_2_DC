@@ -51,7 +51,10 @@ int escolha;
 // else if (comando == D || comando == d) 
 //  novoy--;
 
-}
+// if (novoX >= 0 && novoX < Altura && novoY >= 0 && novoY < Comprimento)
+//. x = novoX; 
+//. y = novoY;
+
 
 
 void Creditos() {
