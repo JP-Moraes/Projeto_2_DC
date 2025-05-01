@@ -29,7 +29,6 @@ int escolha;
 
 
 
-
 // ------ Matriz do Jogo ---------------------
 
 //# define Comprimento 10 - Tamanho da matriz
@@ -58,6 +57,10 @@ int escolha;
 void controle() {
 int novoX = x;
 int novoY = y; - Atualização das coordenadas na matriz
+char comando; uso do teclado para 
+
+if (_kbhit()) {
+comando = _getch(); - Lê a tecla pressionada 
 
 
 }
