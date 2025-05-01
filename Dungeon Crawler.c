@@ -30,7 +30,7 @@ int escolha;
 }
 
 
-// --------- Matriz do Jogo ------------------------------
+// ------ Matriz do Jogo ---------------------
 
 //# define Comprimento 10 - Tamanho da matriz
 //# define Altura 10 - Tamanho da matriz
@@ -39,12 +39,12 @@ int escolha;
 
 //int linha (i), coluna (y); - variaveis para a matriz
 //int x, y; - posição do jogador
-// x = Comprimento / 2; - posiçao inicial
-// y = Largura / 2; - posiçao inicial
+// x = 0; - posiçao inicial
+// y = 0; - posiçao inicial
 
 // void exibirMatriz() {
-// for (linha = 0; linha < Comprimento; linha++)   for (coluna = 0; coluna < Altura; coluna++)       matriz[Comprimento][Altura] ". " 
-//
+// for (linha = 0; linha < Comprimento; linha++)   for (coluna = 0; coluna < Altura; coluna++) 
+// matriz[Comprimento][Altura] = ". "; 
 //}
 
 
