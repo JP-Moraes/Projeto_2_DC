@@ -11,16 +11,11 @@ int escolha;
 
 // ------ Matriz do Jogo ---------------------
 
-//# define Comprimento 10 - Tamanho da matriz
-//# define Altura 10 - Tamanho da matriz
 
-//int linha (i), coluna (y); - variaveis para a matriz
-//int x, y; - posição do jogador
-//x = Comprimento / 2;
-//y = Largura / 2; 
+//int atualizarMatriz() { 
+// int jogoRodando = 1
 
-
-//void matriz() { 
+// while (jogoRodando) 
 // system ("cls");
 //      for (linha = 0; linha < Altura; linha++) {
 // }       for (Coluna = 0; Coluna < Comprimento; j++) {
