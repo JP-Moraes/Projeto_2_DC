@@ -54,13 +54,13 @@ int escolha;
 
 // ------- Função Controle e Colisão -------
 
-void controle() {
-int novoX = x;
-int novoY = y; - Atualização das coordenadas na matriz
-char comando; uso do teclado para 
+// void controle() {
+//int novoX = x;
+//int novoY = y; - Atualização das coordenadas na matriz
+//char comando; uso do teclado para 
 
-if (_kbhit()) {
-comando = _getch(); - Lê a tecla pressionada 
+//if (_kbhit()) {
+//comando = _getch(); - Lê a tecla pressionada 
 
 
 }
