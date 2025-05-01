@@ -43,7 +43,7 @@ int escolha;
 // y = Largura / 2; - posiçao inicial
 
 // void exibirMatriz() {
-// for (linha = 0; linha < Comprimento; linha++)   for (coluna = 0; coluna < Altura; coluna++)      printf ("%c"
+// for (linha = 0; linha < Comprimento; linha++)   for (coluna = 0; coluna < Altura; coluna++)       matriz[Comprimento][Altura] ". " 
 //
 //}
 
