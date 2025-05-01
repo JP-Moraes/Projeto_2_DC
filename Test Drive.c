@@ -4,10 +4,10 @@
 #include <windows.h>
 
 //--- int dos menu e creditos ---
-int escolha1; 
+int sairCreditos; 
 int escolha;
 
-//--- Valores da Matriz e Posição do jogador ---
+//--- Valores da Matriz e PosiÃ§Ã£o do jogador ---
 int altura;
 int comprimento;
 int x;
@@ -15,7 +15,7 @@ int y;
 int i;
 int j;
 
-// ------------------ Função Creditos ------------------------------
+// ------------------ FunÃ§Ã£o Creditos ------------------------------
 void Creditos() {
 
     do
@@ -23,15 +23,15 @@ void Creditos() {
         printf ("Desenvolvedores:\n");
         printf ("Joao Pedro Moraes\n");
         printf ("Pressione 0 para voltar\n");
-        scanf ("%d", &escolha1);
+        scanf ("%d", &sairCreditos);
         system ("cls");
        
-    } while (escolha1 != 0);
+    } while (sairCreditos != 0);
     
 	
 }
 
-//------------ Função para gerar a matriz e movimentar o personagem-----------
+//------------ FunÃ§Ã£o para gerar a matriz e movimentar o personagem-----------
 
 int atualizarMatriz() {
     int jogoRodando = 1;
