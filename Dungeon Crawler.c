@@ -27,7 +27,7 @@ int escolha;
 // while (jogoRodando) { 
 
 
-}
+
 
 
 // ------ Matriz do Jogo ---------------------
@@ -51,9 +51,6 @@ int escolha;
 // }              printf (". "); - marcando o grid
 // }          }
 // }      printf ("\n"); 
-
-// matriz[5][3] = 'C' - item de cura (Posição definida para outros elementos) 
-// matriz[4][7] = 'T' - Armadilha
 
 
 // ------- Função Controle e Colisão -------
