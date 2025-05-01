@@ -33,7 +33,8 @@ int escolha;
 
 // -------- Função Vida ---------
 
-// int vida = 5 
+// #define Vida_Maxima 5
+// int vida = Vida_Maxima 
 
 
 
@@ -41,7 +42,7 @@ void Creditos() {
 
     do
     {
-        printf ("Desenvolvedores:\n");
+        printf ("Desenvolvedores:\n");d
         printf ("Joao Pedro Moraes\n");
         printf ("Pressione 0 para voltar\n");
         scanf ("%d", &escolha1);
