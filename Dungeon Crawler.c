@@ -52,14 +52,16 @@ int escolha;
 // }          }
 // }      printf ("\n"); 
 
-// matriz[5][3] = C - item de cura (Posição definida para outros elementos) 
-// matriz[4][7] = T - Armadilha
+// matriz[5][3] = 'C' - item de cura (Posição definida para outros elementos) 
+// matriz[4][7] = 'T' - Armadilha
+
 
 // ------- Função Controle e Colisão -------
 
-void controle () {
+void controle() {
 int novoX = x;
 int novoY = y; - Atualização das coordenadas na matriz
+
 
 }
 
