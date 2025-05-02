@@ -89,7 +89,7 @@ int atualizarMatriz() {
         }
     }
     
-     Sleep (150);
+     Sleep (2500);
    } 
    
    return 1; 
@@ -110,12 +110,7 @@ int main() {
 		
         switch (escolha) {
             case 1: 
-                altura = 10; // - valores pré-definidos para testes dentro do case, pode alterar para ter qualquer tipo de matriz - 
-		comprimento = 10;
-                x = 1;
-                y = 1; 
-                
-                atualizarMatriz(altura, comprimento, x, y); // - chama a função com os valores ja definidos da matriz
+                vila(); 
                 break;
 
             case 2:
