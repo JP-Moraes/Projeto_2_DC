@@ -9,12 +9,13 @@ int sairCreditos;
 int escolha;
 
 
-//------ Valores Globais do jogo -------------@
-// int matriz[40][40]; 
+//------ Valores Globais do jogo --------------
+
+// int matriz[40][40]; - // Matriz Fixa pro jogo 
 int altura;
 int comprimento;
-int x,y; 
-int i,j; 
+int x,y; // - Posição dentro da Matriz
+int i,j; // - Coordenadas 
 
 // ------------------ Função Creditos ------------------------------
 void Creditos() {
