@@ -7,11 +7,28 @@
 int sairCreditos; 
 int escolha;
 
-//------ Valores da Matriz e Posição do jogador ------
+//------ Valores da Matriz e Posição do jogador ------ 
+// int matriz[40][40]; 
 int altura;
 int comprimento;
 int x,y; 
 int i,j; 
+
+
+// ------- Função que Configura a Matriz de cada fase ---------
+
+void vila() {
+  altura = 10;
+  comprimento = 10;
+  x = 5;
+  y = 3; 
+
+  printf ("carregando. . .") 
+  Sleep (2500); 
+
+  atualizarMatriz(); 
+
+}
 
 // ------------------ Função Creditos ------------------------------
 void Creditos() {
