@@ -45,7 +45,7 @@ void vila() {
   x = 5;
   y = 3; 
 
-  printf ("carregando. . .") 
+  printf ("carregando. . .");
   Sleep (2500);
   printf ("Jogo pronto!"); 
   Sleep (1200); 
@@ -109,7 +109,7 @@ int main() {
     
     while (escolha != 3) {
 
-	printf ("V I R T U A   R U S H\n\n")
+	printf ("V I R T U A   R U S H\n\n");
 	printf ("1. Jogar\n");
         printf ("2. Creditos\n");
         printf ("3. Sair\n");
