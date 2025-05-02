@@ -18,7 +18,7 @@ int altura;
 int comprimento;
 int x,y; // - Posição dentro da Matriz
 int i,j; // - Coordenadas 
-int VitoriaX, VictoriaY // - coordenadas para passar de fase
+// int vitoriaX, vitoriaY;  coordenadas para passar de fase
 
 
 
