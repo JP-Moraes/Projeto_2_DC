@@ -18,6 +18,7 @@ int altura;
 int comprimento;
 int x,y; // - Posição dentro da Matriz
 int i,j; // - Coordenadas 
+int VitoriaX, VictoriaY // - coordenadas para passar de fase
 
 
 
@@ -100,6 +101,7 @@ void vila() {
   comprimento = 10;
   x = 5;
   y = 3; 
+  
 
   printf ("carregando. . .\n");
   Sleep (2500);
