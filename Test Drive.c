@@ -130,6 +130,7 @@ int main() {
 	   }  
 
     }
+       system (color 04); 
        printf ("jogo desligado. . . \n"); 
        return 0;
 }
