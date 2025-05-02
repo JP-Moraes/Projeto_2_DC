@@ -9,12 +9,30 @@ int sairCreditos;
 int escolha;
 
 
-//------ Valores da Matriz e Posição do jogador ------ 
+//------ Valores Globais do jogo -------------@
 // int matriz[40][40]; 
 int altura;
 int comprimento;
 int x,y; 
 int i,j; 
+
+// ------------------ Função Creditos ------------------------------
+void Creditos() {
+	
+    do {
+
+        setlocale(LC_ALL, "Portuguese");
+        printf ("Desenvolvedores:\n\n");
+        printf ("João Pedro Moraes\n");
+        printf ("João Henrique \n\n");
+        printf ("Pressione 0 para voltar\n");
+        scanf ("%d", &sairCreditos);
+        system ("cls");
+       
+    } while (sairCreditos != 0);
+    
+	
+}
 
 
 // ------- Função que Configura a Matriz de cada fase ---------
@@ -34,25 +52,8 @@ void vila() {
 
 }
 
-// ------------------ Função Creditos ------------------------------
-void Creditos() {
-	
-    do {
 
-        setlocale(LC_ALL, "pt_BR.UTF-8");
-        printf ("Desenvolvedores:\n\n");
-        printf ("João Pedro Moraes\n");
-        printf ("João Henrique \n\n");
-        printf ("Pressione 0 para voltar\n");
-        scanf ("%d", &sairCreditos);
-        system ("cls");
-       
-    } while (sairCreditos != 0);
-    
-	
-}
-
-//------------ Função para gerar a matriz e movimentar o personagem-----------
+//------------ Função Nuclear que gera a Matriz e Controle do personagem -----------
 
 int atualizarMatriz() {
     int jogoRodando = 1;
