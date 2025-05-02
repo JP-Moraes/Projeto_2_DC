@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <windows.h>
+#include <locate.h>
 
 //----- int dos menu e creditos -------
 int sairCreditos; 
