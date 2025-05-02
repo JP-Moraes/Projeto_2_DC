@@ -4,11 +4,11 @@
 #include <windows.h>
 #include <locale.h>
 
-//----- int dos menu e creditos -------
+//----- Habilitar acentos e escolha do menu e créditos  -------
 int sairCreditos; 
 int escolha;
+setlocale(LC_ALL, "pt_BR.UTF-8");
 
-setlocale 
 
 //------ Valores da Matriz e Posição do jogador ------ 
 // int matriz[40][40]; 
