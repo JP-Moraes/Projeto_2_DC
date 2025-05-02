@@ -3,25 +3,23 @@
 #include <conio.h>
 #include <windows.h>
 
-//--- int dos menu e creditos ---
+//----- int dos menu e creditos -------
 int sairCreditos; 
 int escolha;
 
-//--- Valores da Matriz e Posição do jogador ---
+//------ Valores da Matriz e Posição do jogador ------
 int altura;
 int comprimento;
-int x;
-int y;
-int i;
-int j;
+int x,y; 
+int i,j; 
 
 // ------------------ Função Creditos ------------------------------
 void Creditos() {
-
-    do
-    {
-        printf ("Desenvolvedores:\n");
-        printf ("Joao Pedro Moraes\n");
+	
+    do {
+        printf ("Desenvolvedores:\n\n");
+        printf ("João Pedro Moraes\n");
+	printf ("João Henrique \n\n");
         printf ("Pressione 0 para voltar\n");
         scanf ("%d", &sairCreditos);
         system ("cls");
@@ -54,7 +52,7 @@ int atualizarMatriz() {
         }
     
 
-    //Captura o comando do jogador 
+    //  ------------ Captura o comando do jogador para movimentar --------------------
     if (_kbhit()) {
         char comando = _getch();
         int novoX = x;
@@ -65,7 +63,7 @@ int atualizarMatriz() {
         if (comando == 'S' || comando == 's') novoX++; //Baixo
         if (comando == 'D' || comando == 'd') novoY++; //Esquerda
 
-       //Verifica os limites da matriz 
+       // ---------- Verificação do Limite da Matriz e Atualização da posição do jogador -------------------------
         if (novoX >= 0 && novoX < altura && novoY >= 0 && novoY < comprimento) {
             x = novoX;
             y = novoY; 
@@ -76,45 +74,39 @@ int atualizarMatriz() {
    } 
    
    return 1; 
-   
 }
 
-
+// ------------------ Menu Principal -------------------
 int main() {
 
     
     while (escolha != 3) {
 
-
-		printf ("1. Jogar\n");
+	printf ("V I R T U A   R U S H\n\n")
+	printf ("1. Jogar\n");
         printf ("2. Creditos\n");
         printf ("3. Sair\n");
-        scanf ("%d", &escolha); 
-			
-	    system ("cls"); 
+        scanf ("%d", &escolha); 		
+	system ("cls"); 
 		
         switch (escolha) {
             case 1: 
-                altura = 20;
-				comprimento = 10;
+                altura = 10; // - valores pré-definidos para testes dentro do case, pode alterar para ter qualquer tipo de matriz - 
+		comprimento = 10;
                 x = 1;
                 y = 1; 
                 
-                atualizarMatriz(altura, comprimento, x, y);
+                atualizarMatriz(altura, comprimento, x, y); // - chama a função com os valores ja definidos da matriz
                 break;
 
             case 2:
                 Creditos();
                 break;
-
-
 	   }  
 
-    
     }
        printf ("jogo desligado. . . \n"); 
-
        return 0;
-   }
+}
 
-;
+
