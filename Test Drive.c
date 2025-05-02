@@ -5,9 +5,10 @@
 #include <locale.h>
 
 //----- Selecção do Menu e Saída do crédito -------
+
+
 int sairCreditos; 
 int escolha;
-
 
 //------ Valores Globais do jogo --------------
 
@@ -54,7 +55,7 @@ void vila() {
 }
 
 
-//------------ Função Nuclear que gera a Matriz e Controle do personagem -----------
+//------------ Função Nuclear que gera a Matriz e Controla o Personagem -----------
 
 int atualizarMatriz() {
     int jogoRodando = 1;
@@ -88,7 +89,8 @@ int atualizarMatriz() {
         if (comando == 'S' || comando == 's') novoX++; //Baixo
         if (comando == 'D' || comando == 'd') novoY++; //Esquerda
 
-       // ---------- Verificação do Limite da Matriz e Atualização da posição do jogador -------------------------
+       // ---------- Verificação do Limite da Matriz e Atualização da posição do jogador ------------------------
+
         if (novoX >= 0 && novoX < altura && novoY >= 0 && novoY < comprimento) {
             x = novoX;
             y = novoY; 
