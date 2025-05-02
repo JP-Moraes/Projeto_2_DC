@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <windows.h>
-#include <locate.h>
+#include <locale.h>
 
 //----- int dos menu e creditos -------
 int sairCreditos; 
 int escolha;
+
+setlocale 
 
 //------ Valores da Matriz e Posição do jogador ------ 
 // int matriz[40][40]; 
