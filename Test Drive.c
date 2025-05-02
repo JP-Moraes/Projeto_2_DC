@@ -21,7 +21,7 @@ int i,j; // - Coordenadas
 // ------------------ Função Creditos ------------------------------
 void Creditos() {
 	
-    do {
+      do {
 
         setlocale(LC_ALL, "Portuguese");
         printf ("Desenvolvedores:\n\n");
