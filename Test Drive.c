@@ -24,7 +24,9 @@ void vila() {
   y = 3; 
 
   printf ("carregando. . .") 
-  Sleep (2500); 
+  Sleep (2500);
+  printf ("Jogo pronto!"); 
+  Sleep (1200); 
 
   atualizarMatriz(); 
 
