@@ -4,10 +4,9 @@
 #include <windows.h>
 #include <locale.h>
 
-//----- Habilitar acentos e escolha do menu e créditos  -------
+//----- Selecção do Menu e Saída do crédito -------
 int sairCreditos; 
 int escolha;
-setlocale(LC_ALL, "pt_BR.UTF-8");
 
 
 //------ Valores da Matriz e Posição do jogador ------ 
@@ -39,9 +38,11 @@ void vila() {
 void Creditos() {
 	
     do {
+
+        setlocale(LC_ALL, "pt_BR.UTF-8");
         printf ("Desenvolvedores:\n\n");
         printf ("João Pedro Moraes\n");
-	printf ("João Henrique \n\n");
+        printf ("João Henrique \n\n");
         printf ("Pressione 0 para voltar\n");
         scanf ("%d", &sairCreditos);
         system ("cls");
