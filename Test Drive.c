@@ -22,7 +22,8 @@ int i,j; // - Coordenadas
 void Creditos() {
 	
       do {
-
+        
+        system (color 06);
         setlocale(LC_ALL, "Portuguese");
         printf ("Desenvolvedores:\n\n");
         printf ("João Pedro Moraes\n");
@@ -50,6 +51,7 @@ void vila() {
   printf ("Jogo pronto!"); 
   Sleep (1200); 
 
+  system (color 02);
   atualizarMatriz(); 
 
 }
@@ -109,8 +111,9 @@ int main() {
     
     while (escolha != 3) {
 
-	printf ("V I R T U A   R U S H\n\n");
-	printf ("1. Jogar\n");
+        system (color 01); 
+	       printf ("V I R T U A   R U S H\n\n");
+	       printf ("1. Jogar\n");
         printf ("2. Creditos\n");
         printf ("3. Sair\n");
         scanf ("%d", &escolha); 		
