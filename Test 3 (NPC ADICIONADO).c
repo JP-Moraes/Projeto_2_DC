@@ -4,7 +4,7 @@
 #include <windows.h>
 #include <locale.h>
 
-//----- SelecÁ„o do Menu e SaÌda do crÈdito -------
+//----- Selec√ß√£o do Menu e Sa√≠da do cr√©dito -------
 
 int tutorialExecutado = 0;
 int menuDePause; 
@@ -17,10 +17,39 @@ int escolha;
 int matriz[40][40]; // Matriz Fixa pro jogo 
 int altura;
 int comprimento;
-int x,y; // - PosiÁ„o dentro da Matriz
+int x,y; // - Posi√ß√£o dentro da Matriz
 int i,j; // - Coordenadas 
 
 
+// ----- Fun√ß√µes gen√©ricas de Matriz --------
+
+void inicializarMatriz() {
+    for (j = 0; j < altura; j++) {
+        for (i = 0; i < comprimento; i++) {
+            matriz[i][j] = 0;  // Define todas as c√©lulas como vazias
+        }
+    }
+}
+
+void exibirMatriz() {
+    for (j = 0; j < altura; j++) {
+        for (i = 0; i < comprimento; i++) {
+            if (i == x && j == y) {
+                printf("B ");  // Jogador
+            } else if (matriz[i][j] == 1) {
+                printf("P ");  // NPC
+            } else if (matriz[i][j] == 2) {
+                printf("T ");  // Tutorial
+            } else {
+                printf(". ");  // Espa√ßo vazio
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+===== Fun√ß√£o do NPC de exibe o Tutorial =====
 void npc(){
 	
 	system ("cls"); 
@@ -50,7 +79,7 @@ void npc(){
 
 
 
-// --------- FunÁ„o de Pausa do jogo -----------
+// --------- Fun√ß√£o de Pausa do jogo -----------
 void pausa() {
 	
 	system ("cls"); 
@@ -77,9 +106,9 @@ void pausa() {
 				system ("cls");
                 setlocale(LC_ALL, "Portuguese");
                 printf ("=======================\n\n"); 
-				printf ("VocÍ quer mesmo sair?\n");
+				printf ("Voc√™ quer mesmo sair?\n");
 				printf ("1. Sim\n");
-				printf ("2. N„o\n");
+				printf ("2. N√£o\n");
 				printf ("========================\n\n"); 
 				scanf ("%d", &comfirmar);
 				if (comfirmar == 2) {
@@ -99,7 +128,7 @@ void pausa() {
 	
 }
 
-// ------------------ FunÁ„o Creditos ------------------------------
+// ------------------ Fun√ß√£o Creditos ------------------------------
 void Creditos() {
 	
       do {
@@ -108,8 +137,8 @@ void Creditos() {
         setlocale(LC_ALL, "Portuguese");
         printf ("===========================================\n");
         printf ("D E S E N V O L V E D O R E S:\n\n");
-        printf (". J O √ O  P E D R O  M O R A E S\n");
-        printf (". J O √ O  H E N R I Q U E\n\n");
+        printf (". J O √É O  P E D R O  M O R A E S\n");
+        printf (". J O √É O  H E N R I Q U E\n\n");
         printf ("Pressione 0 para voltar\n");
         printf ("============================================\n");
         scanf ("%d", &sairCreditos);
@@ -121,7 +150,7 @@ void Creditos() {
 }
 
 
-// ------- FunÁıes que Configura a Matriz de cada fase ---------
+// ------- Fun√ß√µes que Configura a Matriz de cada fase ---------
 
 void vila() {
   altura = 10;
@@ -129,14 +158,10 @@ void vila() {
   x = 5;
   y = 3; 
   
-  for (j = 0; j < altura; j++){
-	  for(i = 0; i < comprimento; i++) {
-		  matriz[i][j] = 0;
-	  }
-  }
+  inicializarMatriz(); 
   
   matriz[5][4] = 1; //NPC
-  matriz[5][3] = 2; //AtivaÁ„o do tutorial
+  matriz[5][3] = 2; //Ativa√ß√£o do tutorial
   
 
   printf ("carregando. . .\n");
@@ -152,28 +177,12 @@ void vila() {
 }
 
 
-//------------ FunÁ„o Nuclear que gera a Matriz e Controla o Personagem -----------
+//------------ Fun√ß√£o Nuclear que gera a Matriz e Controla o Personagem -----------
 
 int atualizarMatriz() {
-    int jogoRodando = 1;
-	  
+     system ("cls");
+     exibirMatriz(); 
 
-    while (jogoRodando) {
-    	
-        system ("cls");
-        for (j = 0; j < altura; j++) {
-            for (i = 0; i < comprimento; i++) {
-				if (i == x && j == y) {
-                    printf ("B ");
-                } else if (matriz[i][j] == 1) {
-					printf ("P ");
-				} else 
-				    printf (". ");
-				
-			}
-			               
-           printf ("\n"); 
-        } 
 
     //  ------------ Captura o comando do jogador para movimentar --------------------
     if (_kbhit()) {
@@ -187,7 +196,7 @@ int atualizarMatriz() {
         if (comando == 'D' || comando == 'd') novoX++; //Esquerda
   	    if (comando == 'P' || comando == 'p') pausa(); //Ativa o menu de pause
   	    	
-       // ---------- VerificaÁ„o do Limite da Matriz e AtualizaÁ„o da posiÁ„o do jogador ------------------------
+       // ---------- Verifica√ß√£o do Limite da Matriz e Atualiza√ß√£o da posi√ß√£o do jogador ------------------------
 
         if (novoX >= 0 && novoX < altura && novoY >= 0 && novoY < comprimento) {
         	if (matriz[novoX][novoY] != 1) {
@@ -212,7 +221,7 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
     system ("color 0E");
 	Sleep(1000);
-	printf ("Desenvolvido por dois estudandes de programaÁ„o. . .\n");
+	printf ("Desenvolvido por dois estudandes de programa√ß√£o. . .\n");
 	Sleep(1500); 
 	printf (". . .Apresento o clone fraco do Umori!! :3");
 	Sleep (2500);
@@ -225,7 +234,7 @@ int main() {
 		printf ("==============================\n\n");
   	    printf ("V I R T U A   R U S H\n\n");
         printf ("1. J O G A R\n");
-        printf ("2. C R … D I T O S\n");
+        printf ("2. C R √â D I T O S\n");
         printf ("3. S A I R\n\n");
         printf ("==============================\n\n");
         scanf ("%d", &escolha); 		
