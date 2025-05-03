@@ -69,13 +69,7 @@ void npc(){
 		tutorialExecutado = 1; 
 	}
 	 
-     system ("color 0A");
-	 atualizarMatriz(); 
-	
 }
-
-
-
 
 // --------- Função de Pausa do jogo -----------
 void pausa() {
