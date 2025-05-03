@@ -178,6 +178,9 @@ void vila() {
 //------------ Função Nuclear que gera a Matriz e Controla o Personagem -----------
 
 int atualizarMatriz() {
+    int jogoRodando = 1; 
+
+   while (jogoRodando) {
      system ("cls");
      exibirMatriz(); 
 
