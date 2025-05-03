@@ -38,8 +38,6 @@ void exibirMatriz() {
                 printf("B ");  // Jogador
             } else if (matriz[i][j] == 1) {
                 printf("P ");  // NPC
-            } else if (matriz[i][j] == 2) {
-                printf("T ");  // Tutorial
             } else {
                 printf(". ");  // Espaço vazio
             }
