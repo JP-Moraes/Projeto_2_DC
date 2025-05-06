@@ -10,10 +10,10 @@ void randomMovementMonsterY() {
 		case 1:
 			monsterBX--; //direita
 			break;
-		case 0:
+		case 2:
 			monsterBY--; //baixo
 			break;
-		case 0:
+		case 3:
 			monsterBX--; //esquerda
 			break;
 		
