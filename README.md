@@ -26,3 +26,7 @@ Aceitar / Negar
 Aceitar termina o jogo e mostra os créditos.
 
 Negar reinicia ele.
+
+# Dev Log
+
+os arquivos referentes ao jogo, bem como sua evolução e atualização está presente dentro do Github
