@@ -7,6 +7,7 @@ University work about developing a dungeon crawler
 # Compilação: 
 - Só pode ser compilado em maquinas windowns, pois usa a biblioteca Conio.h
 - Tanto Falcon quanto Visual Studio rodam o jogo 
+- Deve ser compilado em windows 1252
 
 # História: 
 
