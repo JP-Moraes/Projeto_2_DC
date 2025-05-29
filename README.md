@@ -7,7 +7,7 @@ University work about developing a dungeon crawler
 # Compilação: 
 - Só pode ser compilado em maquinas windowns, pois usa a biblioteca Conio.h
 - Tanto Falcon quanto Visual Studio rodam o jogo 
-- Deve ser compilado em windows 1252
+- Deve ser compilado em windows 1252 (desatualiza o VS code para rodar)
 
 # História: 
 
@@ -30,4 +30,4 @@ Negar reinicia ele.
 
 # Dev Log
 
-os arquivos referentes ao jogo, bem como sua evolução e atualização está presente dentro do Github
+os arquivos referentes a evolução e atualização do jogo está presente dentro do Github indo do test 3 ate o test 7 (jogo concluido). 
